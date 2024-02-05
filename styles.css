@@ -1,0 +1,110 @@
+html, 
+
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: rgb(23, 49, 86);
+    color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    margin-bottom: 1rem;   
+    text-align: center;     
+}
+ 
+.wrapper{
+
+  color:rgb(22, 52, 93);
+  background-color: #ffffff; 
+  padding: 10px;
+  text-align: left; 
+  transition: all 2s ease;
+    
+}
+
+.paragraph-heading{
+  color: rgb(67, 170, 225);
+}
+
+.box{
+  padding: 10px;
+  transition: transform 1s, box-shadow 1s ease;
+}
+
+.box:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  color: rgb(255, 255, 255) ;
+  background:rgb(22, 52, 93);
+  transition: transform 1s, box-shadow 1s ease, color 0.3s ease-in-out;
+}
+
+
+ul{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 0; /* Remove default padding */
+    
+  }
+
+  li {
+
+        margin: 10px; /* Add margin on all sides of each list item */
+        position: relative;
+        text-align: right;
+        text-decoration: none;
+        display: block;
+        border: 1px solid rgb(255, 255, 255);
+        padding: 8px;
+        border-radius: 5%;
+        box-shadow: 0 2px 1px rgba(0, 0, 0, 0.377);
+        transition: transform 1s, box-shadow 1s ease, color 0.3s ease-in-out;
+
+        
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(67, 170, 225); /* Default text color */
+      }
+      
+      a:visited {
+        color: purple; /* Color after link has been visited */
+       
+      }
+
+
+
+      li:hover {
+        
+        transform: scale(1.2); /* Increase size on hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow size on hover */
+        color: rgb(255, 255, 255);
+        background:rgb(22, 52, 93);
+        transition: transform 1s, box-shadow 1s ease;
+       
+      }
+
+      li:hover a{
+        color: rgb(255, 255, 255);
+      }
+
+      .box:hover .paragraph-heading {
+        color: rgb(255, 255, 255);
+      }
+
+footer{
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 1000px;
+    
+    text-align: center; 
+    color: rgb(22, 52, 93);
+    margin: 0 auto;
+   
+}
+
